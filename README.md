@@ -1,11 +1,7 @@
-mongoose-shortid-nodeps
+mongoose-shortid
 ================
 
-## Why this fork ?
-
-This module was originally written by [Jason Choy](https://github.com/jjwchoy).
-
-I just removed the bignum dependency to have a more light and portable module.
+Leeroy Brun version with Laurent lchenay solution for multiple shortid in the same model.
 
 ## Original README
 

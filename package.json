@@ -1,6 +1,6 @@
 {
-  "name": "mongoose-shortid-nodeps",
-  "description": "Short Ids for mongoose, with no dependencies",
+  "name": "mongoose-shortid",
+  "description": "Short Ids for mongoose",
   "author": "Leeroy Brun <leeroy.brun@gmail.com>",
   "version": "0.6.3",
   "contributors": [
@@ -23,11 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leeroybrun/mongoose-shortid-nodeps"
+    "url": "https://github.com/Waidd/mongoose-shortid"
   },
   "keywords": [
     "mongoose"
   ],
+  "dependencies": {
+    "async": "^1.5.0"
+  },
   "peerDependencies": {
     "mongoose": ">= 3.5.0"
   },
